@@ -7,7 +7,7 @@ function appendNavbar()
     // The code for the navbar bootstrap
     let navBarBootstrap = `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Nanotech</a>
+        <a class="navbar-brand" href="https://tonglin2003.github.io/TTP-Assignment1/">Nanotech</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
