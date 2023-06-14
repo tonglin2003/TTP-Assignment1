@@ -7,7 +7,7 @@ function appendNavbar()
     // The code for the navbar bootstrap
     let navBarBootstrap = `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Nanotech</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -16,14 +16,8 @@ function appendNavbar()
             <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Contact Form</a>
             </li>
             </ul>
         </div>
@@ -104,8 +98,8 @@ function appendFooter()
 
   <!-- Copyright -->
   <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2023 Copyright:
+    <a class="text-dark" href="https://tonglin2003.github.io/TTP-Assignment1/">TTP Bootcamp</a>
   </div>
   <!-- Copyright -->
 </footer>
