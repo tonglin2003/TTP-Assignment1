@@ -1,0 +1,56 @@
+body {
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: center;
+}
+.contactForm {
+  display: flex;
+  width: 900px;
+  flex-direction: column;
+  border-radius: 50px;
+  padding: 20px;
+}
+.formSection {
+  background-color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+}
+.lastName {
+  margin-left: 10;
+}
+.text-center {
+  text-align: center;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centered {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.borderexample {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #287ec7;
+}
+
+@media only screen and (max-width: 900px) {
+  .img-center {
+    width: 65%;
+  }
+  .centered {
+    width: 80%;
+  }
+}
