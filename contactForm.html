@@ -6,58 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donate Now!</title>
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- BootStrap CSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap JS link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- ICON link (mainly used in the footer) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
-  <body class="body">
-    <div class="contactForm">
-      <div class="formSection">
-        <p>Name*</p>
-        <div>
-          <input
-            placeholder="First"
-            id="firstName"
-            type="text"
-            class="m"
-            style="
-              width: 300px;
-              height: 20px;
-              border-radius: 10px;
-              border-color: black;
-            "
-          />
-          <input
-            placeholder="Last"
-            id="lastName"
-            type="text"
-            class="lastName"
-            style="
-              width: 300px;
-              height: 20px;
-              margin-left: 20px;
-              border-radius: 10px;
-              border-color: black;
-            "
-          />
-        </div>
-      </div>
-      <div class="formSection">
-        <p>Email*</p>
+  <body>
+    <script src="./script.js"></script>
+
+    <div id="navBarContainer"></div>
+    <script>
+      appendNavbar();
+    </script>
+
+<div class="body">
+  <div class="contactForm">
+    <div class="formSection">
+      <p>Name*</p>
+      <div>
         <input
-          id="email"
-          type="email"
-          placeholder="Enter your email"
-          style="
-            width: 300px;
-            height: 20px;
-            border-radius: 10px;
-            border-color: black;
-          "
-        />
-      </div>
-      <div class="formSection">
-        <p>Phone*</p>
-        <input
+          placeholder="First"
+          id="firstName"
           type="text"
-          placeholder="### ### ####"
+          class="m"
           style="
             width: 300px;
             height: 20px;
@@ -65,17 +49,63 @@
             border-color: black;
           "
         />
-      </div>
-      <div class="formSection">
-        <p>Leave us a message*</p>
-        <textarea
-          name="usermessage"
-          id=""
-          placeholder="Write a message here"
-          cols="60"
-          rows="25"
-        ></textarea>
+        <input
+          placeholder="Last"
+          id="lastName"
+          type="text"
+          class="lastName"
+          style="
+            width: 300px;
+            height: 20px;
+            margin-left: 20px;
+            border-radius: 10px;
+            border-color: black;
+          "
+        />
       </div>
     </div>
+    <div class="formSection">
+      <p>Email*</p>
+      <input
+        id="email"
+        type="email"
+        placeholder="Enter your email"
+        style="
+          width: 300px;
+          height: 20px;
+          border-radius: 10px;
+          border-color: black;
+        "
+      />
+    </div>
+    <div class="formSection">
+      <p>Phone*</p>
+      <input
+        type="text"
+        placeholder="### ### ####"
+        style="
+          width: 300px;
+          height: 20px;
+          border-radius: 10px;
+          border-color: black;
+        "
+      />
+    </div>
+    <div class="formSection">
+      <p>Leave us a message*</p>
+      <textarea
+        name="usermessage"
+        id=""
+        placeholder="Write a message here"
+        cols="60"
+        rows="25"
+      ></textarea>
+    </div>
+  </div>
+</div>
+  <div id="footerContainer"></div>
+  <script>
+    appendFooter();
+  </script>
   </body>
 </html>

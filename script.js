@@ -17,7 +17,7 @@ function appendNavbar()
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Contact Form</a>
+                <a class="nav-link" href="https://tonglin2003.github.io/TTP-Assignment1/contactForm.html">Contact Form</a>
             </li>
             </ul>
         </div>
